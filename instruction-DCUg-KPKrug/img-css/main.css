@@ -275,8 +275,8 @@ body.no-scroll {
     }
 
     .active .menu-element:hover {
-        background-color: transparent;
-        border-bottom: none;
+        background-color: #114a8214;
+        border-bottom: 2px solid #114a8245;
     }
 
     .active .menu-element {
