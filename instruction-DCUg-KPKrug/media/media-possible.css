@@ -1,0 +1,276 @@
+@media (min-width: 1024px) and (max-width: 1272px) {
+	main {
+		margin: 0 20px;
+	}
+
+	.variation-malfunctions .dropbtn {
+		font-size: 1.3em;
+	}
+
+	.dropdown-content .group-decision-solving {
+		margin: 0 auto;
+	}
+
+}   /* Разрешение 1024 - 1250 */ 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	/* Подвал сайта */
+
+	.footer-content {
+		margin: 0em 6em 0em 6em;
+	}
+
+	.logo-footer {
+		width: 85%;
+	}
+
+	.copyright {
+        font-size: 13.85px; /*13.78px*/
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+		width: 85%;
+	}
+
+	.menu li, .menu .menu-element {
+		width: 144px;
+	}
+
+	.menu .menu-element {
+		font-size: 14px;
+	}
+
+	.image-btn {
+		margin-right: 0;
+	}
+
+	/* Содержимое раздела */
+
+	body {
+		background-color: white;
+	}
+
+	.text-guide .issue-title {
+		padding: 15px 30px 10px;
+	}
+
+	.chapter-title {
+		font-size: 26px;
+	}
+
+	.line-1 {
+	    background: linear-gradient(90deg, #114A82 0, rgba(198, 224, 245, .529849) 80%, #ffffff00 100%);
+	}
+
+	.text-guide .preface, .text-guide .issue-title, .text-guide .group-decision-solving {
+		background-color: transparent;
+		border-radius: 0;
+		box-shadow: none;
+		margin-top: 0;
+	}
+
+	.text-guide .preface {
+		padding: 15px 30px 15px;
+	}
+
+	.variation-malfunctions .dropbtn {
+		width: 90%;
+		font-size: 1.15em;
+	}
+
+	.dropbtn .title-btn {
+		width: 89%;
+	}
+
+	.dropdown-content .group-decision-solving {
+		display: flex;
+		margin-right: 0;
+		width: 80%;
+    	margin: 0 auto;
+    	background-color: #114a8214;
+	    border-radius: 30px;
+	    border: 3px #114a8224 ridge;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	.group-decision-solving .preface-decision {
+		font-size: 16px;
+    	padding-left: 20px;
+    	text-indent: 0;
+	}
+
+	.group-decision-solving .decision {
+		width: 55%; /* было 35%  */
+		min-width: 0;
+		font-size: 0.9em;
+	    flex-direction: column;
+	    margin-right: 0;
+	}
+
+	.decision p {
+		text-align: center;
+	}
+
+	.decision .pointer {
+		transform: rotate(90deg) translateX(3px);
+	}
+
+	.decision .down-arrow {
+		margin-left: 0;
+		margin-top: 8px;
+/*		margin-top: 25px;*/
+	}
+
+	.image-guide .image-malfunction {
+		background-color: transparent;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+}    /* Разрешение 768 - 1023 */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	/* Подвал сайта */
+
+	.image-btn-2 {
+		text-align: center;
+/*		width: 55%;*/
+	}
+
+	.copyright {
+		margin-top: 0;
+		font-size: 13px;
+		margin-right: 3em;
+	}
+
+	footer {
+		height: 100%;
+	}
+
+	.footer-content {
+		margin: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+		display: none;
+/*	    width: 95px; /* width: 200px; */
+	}
+
+	.logo-mobile {
+		display: block;
+	}
+
+	.image-btn {
+		margin-right: 0;
+	    text-align: right;
+	    padding-right: 20px;
+	}
+
+	/* Содержимое сайта */
+
+	.media-possible {
+		padding-top: 2.25em;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	.text-guide .issue-title {
+		padding: 15px 20px 10px;
+	}
+
+	.chapter-title {
+		font-size: 20px;
+	}
+
+	.line-1 {
+	    background: linear-gradient(90deg, #114A82 0, rgba(198, 224, 245, .529849) 80%, #ffffff00 100%);
+	}
+
+	.text-guide .preface, .text-guide .issue-title, .text-guide .group-decision-solving {
+		background-color: transparent;
+		border-radius: 0;
+		box-shadow: none;
+		margin-top: 0;
+	}
+
+	.text-guide .preface {
+		padding: 0px 20px 15px;
+        text-indent: 0;
+	}
+
+	.variation-malfunctions .dropbtn {
+		width: 90%;
+		font-size: 1em;
+		height: max-content;
+	}
+
+	.dropbtn .title-btn {
+		width: 89%;
+	}
+
+	.dropdown-content .group-decision-solving, .malfunction .group-decision-solving {
+		display: flex;
+		margin-right: 0;
+		width: 80%;
+    	margin: 0 auto;
+    	background-color: #114a8214;
+	    border-radius: 30px;
+	    border: 3px #114a8224 ridge;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	.group-decision-solving .preface-decision {
+		font-size: 15px;
+    	padding-left: 20px;
+    	text-indent: 0;
+	}
+
+	.group-decision-solving .decision, .malfunction .decision {
+		width: 65%; /* было 35% 55% */
+		min-width: 0;
+		font-size: 0.9em;
+	    flex-direction: column;
+	    margin-right: 0;
+	}
+
+	.malfunction .decision {
+		margin: 10px auto 0;
+	}
+
+	.decision p {
+		text-align: center;
+	}
+
+	.decision .pointer {
+		transform: rotate(90deg) translateX(3px);
+	}
+
+	.decision .down-arrow {
+		margin-left: 0;
+		margin-top: 8px;
+/*		margin-top: 25px;*/
+	}
+
+	.image-guide .image-malfunction {
+		background-color: transparent;
+		border-radius: 0;
+		box-shadow: none;
+		padding: 0 20px 15px;
+	}
+
+}     /* Разрешение 320 - 767 */
+
+/* --- Прочие настройки ---  */
+
