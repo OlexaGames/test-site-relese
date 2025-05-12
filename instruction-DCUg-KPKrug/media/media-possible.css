@@ -94,31 +94,11 @@
 		width: 89%;
 	}
 
-/* 	.dropdown-content .group-decision-solving {
-		display: flex;
-		margin-right: 0;
-		width: 80%;
-    		margin: 0 auto;
-    		background-color: #114a8214;
-	    	border-radius: 30px;
-	    	border: 3px #114a8224 ridge;
-	    	flex-direction: column;
-	    	align-items: center;
-	} */
-
 	.group-decision-solving .preface-decision {
 		font-size: 16px;
     		padding-left: 20px;
     		text-indent: 0;
 	}
-
-/* 	.group-decision-solving .decision {
-		width: 55%; /* было 35% 
-		min-width: 0;
-		font-size: 0.9em;
-	    	flex-direction: column;
-	    	margin-right: 0;
-	} */
 
 	.decision p {
 		text-align: center;
