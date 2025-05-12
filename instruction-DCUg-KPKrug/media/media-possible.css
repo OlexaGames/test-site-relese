@@ -94,7 +94,7 @@
 		width: 89%;
 	}
 
-	.dropdown-content .group-decision-solving {
+/* 	.dropdown-content .group-decision-solving {
 		display: flex;
 		margin-right: 0;
 		width: 80%;
@@ -104,7 +104,7 @@
 	    	border: 3px #114a8224 ridge;
 	    	flex-direction: column;
 	    	align-items: center;
-	}
+	} */
 
 	.group-decision-solving .preface-decision {
 		font-size: 16px;
@@ -140,7 +140,7 @@
 		box-shadow: none;
 	}
 
-		.dropdown-content .group-decision-solving, .malfunction .group-decision-solving {
+	.dropdown-content .group-decision-solving, .malfunction .group-decision-solving {
 		display: flex;
 		margin-right: 0;
 		width: 80%;
@@ -168,10 +168,6 @@
 
 	.malfunction .decision {
 		margin: 10px auto 0;
-	}
-
-	.decision p {
-		text-align: center;
 	}
 
 	.decision .pointer {
