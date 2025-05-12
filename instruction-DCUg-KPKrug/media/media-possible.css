@@ -128,12 +128,6 @@
 	    	align-items: center;
 	}
 
-	.group-decision-solving .preface-decision {
-		font-size: 16px;
-    		padding-left: 20px;
-    		text-indent: 0;
-	}
-
 	.group-decision-solving .decision, .malfunction .decision {
 		width: 65%; /* было 35% 55% */
 		min-width: 0;
