@@ -112,13 +112,13 @@
     		text-indent: 0;
 	}
 
-	.group-decision-solving .decision {
-		width: 55%; /* было 35%  */
+/* 	.group-decision-solving .decision {
+		width: 55%; /* было 35% 
 		min-width: 0;
 		font-size: 0.9em;
 	    	flex-direction: column;
 	    	margin-right: 0;
-	}
+	} */
 
 	.decision p {
 		text-align: center;
@@ -149,7 +149,7 @@
 	}
 
 	.group-decision-solving .preface-decision {
-		font-size: 15px;
+		font-size: 16px;
     		padding-left: 20px;
     		text-indent: 0;
 	}
@@ -157,7 +157,7 @@
 	.group-decision-solving .decision, .malfunction .decision {
 		width: 65%; /* было 35% 55% */
 		min-width: 0;
-		font-size: 0.9em;
+		font-size: 1em;
 	    	flex-direction: column;
 	    	margin-right: 0;
 	}
