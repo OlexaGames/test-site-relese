@@ -72,6 +72,13 @@ footer {
 	transition: max-height 600ms ease;
 }
 
+.empty {
+	text-align: center;
+    	font-size: 19px;
+    	font-weight: 700;
+    	color: #154977;
+}
+
 .dropdown-content ul, .dropdown-content ol {
 	margin: 0;
     font-size: 19px;
